@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+  {% include google_analytics.html %}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+  
+  <meta name="keywords" content="Hack and Defense, Hack and Defence, hackndef, Penetration Testing, Web Application Security, Phishing, Hack, Billing Security, Cryptocurrency Security, Application Security, Сontinuous Security, Security Audit, Vulnerability Assessment, Cybersecurity">
+  <meta name="description" content="Hack and Defense is a team of cybersecurity professionals dedicated to providing security services">
+
+  <script src="/assets/jquery.min.js"></script>
+  <script src="/assets/main.js"></script>
+
+  <link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css">
+  <script src="/assets/bootstrap/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="/assets/highlight.js/default.min.css">
+  <script src="/assets/highlight.js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <title>
+    {% if page.title %}
+      Hack & Defense - {{ page.title }}
+    {% else %}
+      Hack & Defense
+    {% endif %}
+  </title>
+</head>
+<body>
+  {% include yandex_metrika.html %}
+
+  <div class="container">
+    {% include navigation.html %}
+
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>

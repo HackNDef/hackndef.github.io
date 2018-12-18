@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 User-agent: *
 
 Sitemap: http://hackndef.com/sitemap.xml
