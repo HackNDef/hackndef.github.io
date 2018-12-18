@@ -1,11 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-  <url>
-    <loc>http://hackndef.com/blog/index.html</loc>
-    <lastmod>2018-09-28T00:00:03+03:00</lastmod>
-  </url>
-  <url>
-    <loc>http://hackndef.com/blog/how-to-send-fake-emails/index.html</loc>
-    <lastmod>2017-09-05T00:10:03+03:00</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://hackndef.com/blog/how-to-send-fake-emails/</loc>
+<lastmod>2018-12-18T21:47:32+03:00</lastmod>
+</url>
+<url>
+<loc>http://hackndef.com/blog/</loc>
+<lastmod>2018-12-18T21:45:02+03:00</lastmod>
+</url>
+<url>
+<loc>http://hackndef.com/</loc>
+<lastmod>2018-12-18T21:45:02+03:00</lastmod>
+</url>
 </urlset>
